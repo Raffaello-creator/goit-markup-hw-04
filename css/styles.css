@@ -315,6 +315,7 @@ h1 {
   flex-direction: column;
   flex-wrap: wrap;
   width: 360px;
+  height: auto;
 }
 
 .divfour_hover:hover p {
