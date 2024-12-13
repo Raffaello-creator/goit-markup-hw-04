@@ -312,6 +312,8 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 360px;
+  height: 300px;
 }
 
 .divfour_hover .stl_sect_four_p {
