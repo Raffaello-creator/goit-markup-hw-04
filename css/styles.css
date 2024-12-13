@@ -52,6 +52,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  position: relative;
 }
 header .logo_studio {
   color: #2e2f42;
@@ -76,6 +77,7 @@ footer .logo_studio {
 
 .contacts {
   font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link {
@@ -119,11 +121,13 @@ footer .logo_studio {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .stl_button:hover,
 .stl_button:focus {
   background-color: #404bbf;
 }
+
 .stl_h_larg {
   font-size: 56px;
   font-weight: 700;
@@ -168,6 +172,15 @@ footer .logo_studio {
   padding: 188px 0;
   margin-left: auto;
   margin-right: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.png);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .stl_sect_three {
   background-color: #f4f4fd;
@@ -213,6 +226,17 @@ footer .logo_studio {
   align-items: center;
   gap: 40px;
 }
+.nav_li::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header .container .contacts .contacts_li {
   display: flex;
   align-items: center;
@@ -251,8 +275,6 @@ h1 {
 .stl_sect_three_li {
   display: flex;
   gap: 24px;
-  /* column-gap: 24px;
-    row-gap: 48px;*/
   flex-wrap: wrap;
 }
 .stl_sect_three_lili {
