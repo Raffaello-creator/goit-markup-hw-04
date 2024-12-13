@@ -291,7 +291,6 @@ h1 {
 }
 .stl_sect_three_lili {
   width: calc((100% - 48px) / 3);
-  height: 422px;
   gap: 24px;
 }
 .divfour {
@@ -306,6 +305,8 @@ h1 {
 }
 
 .divfour_hover {
+  height: 100%;
+  width: 100%;
   position: relative;
   overflow: hidden;
   border: 1px solid #e7e9fc;
