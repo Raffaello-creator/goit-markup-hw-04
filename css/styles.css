@@ -230,6 +230,8 @@ footer .logo_studio {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 100%;
+  height: 100%;
 }
 .container {
   max-width: 1158px;
@@ -312,8 +314,6 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 300px;
-  width: 360px;
 }
 
 .stl_sect_four_p {
