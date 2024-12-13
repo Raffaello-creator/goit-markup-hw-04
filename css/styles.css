@@ -212,6 +212,8 @@ footer .logo_studio {
   background-color: #fff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our_team_p {
   font-weight: 400;
@@ -316,4 +318,13 @@ h1 {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+}
+.stl_sect_three_media {
+  display: flex;
+  justify-items: center;
+  gap: 24px;
+}
+.stl_sect_three_media_li {
+  width: 40px;
+  height: 40px;
 }
