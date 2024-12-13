@@ -313,7 +313,10 @@ h1 {
 
   flex-wrap: wrap;
 }
-
+.p_p {
+  height: 100%;
+  width: 100%;
+}
 .divfour_hover p {
   position: absolute;
   top: 0;
