@@ -314,6 +314,7 @@ h1 {
   flex-wrap: wrap;
   width: 360px;
   height: 300px;
+  /**/
 }
 
 .divfour_hover:hover .stl_sect_four_p {
