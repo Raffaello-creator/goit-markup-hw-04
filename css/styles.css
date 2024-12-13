@@ -398,6 +398,7 @@ h1 {
 }
 .stl_footer .container {
   display: flex;
+  align-items: baseline;
 }
 .footer_li {
   display: flex;
@@ -406,4 +407,8 @@ h1 {
 .footer_lili {
   width: 40px;
   height: 40px;
+}
+.footer_a {
+  width: 100%;
+  height: 100%;
 }
