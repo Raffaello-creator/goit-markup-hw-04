@@ -313,10 +313,7 @@ h1 {
 
   flex-wrap: wrap;
 }
-.p_p {
-  height: 100%;
-  width: 100%;
-}
+
 .divfour_hover p {
   position: absolute;
   top: 0;
@@ -385,4 +382,28 @@ h1 {
 }
 .stl_sect_four_li .stl_sect_three_lili {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.stl_footer_div {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.footer_p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.stl_footer .container {
+  display: flex;
+}
+.footer_li {
+  display: flex;
+  gap: 16px;
+}
+.footer_lili {
+  width: 40px;
+  height: 40px;
 }
